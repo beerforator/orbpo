@@ -1,7 +1,7 @@
 {
   "users": {
     "user1": {
-      "passwordHash": "$2b$10$qN4aEJrUOQNx7SVpdk5z6.5WSE/IjyEgLq7lJfHOmiF1.myPRKaFG",
+      "passwordHash": "$2b$10$FMeaE3H5FgJGia13QSz8A.DeJFoYynPTyd2EZtRFmO2UU892CbOfS",
       "secretQuestions": [
         {
           "question": "1",
@@ -62,6 +62,19 @@
         {
           "question": "2",
           "answerHash": "$2b$10$tuaqNwwEX59dn2ilSmBrBevdNWgHApjPy5vsg6qYvIo2ltyMDwX4S"
+        }
+      ]
+    },
+    "user10": {
+      "passwordHash": "$2b$10$oYzLB2fhKI3Dp6NwQ/CgPeulp18TuAfHxPym6ZyGjSPexkJ7xCcEO",
+      "secretQuestions": [
+        {
+          "question": "В каком городе вы родились?",
+          "answerHash": "$2b$10$UqH577YyvpIhnqEBhh12VO5dcRW0etgh4DXOAI9VpnqSHdkqh2aNu"
+        },
+        {
+          "question": "Обракадабра",
+          "answerHash": "$2b$10$0N2vFByUoByk42MmIWfuduZ2XslYv/aoHDkxWA.7PFMp4sG5GL4PC"
         }
       ]
     }

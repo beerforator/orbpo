@@ -152,7 +152,7 @@ const register = (email, password, questions) => {
 
     const secretQuestions = questions.map(({ question, answer }) => ({
         question: sanitizeInput(question),
-        answerHash: bcrypt.hashSync(sanitizeInput(answer).toLowerCase(), SALT_ROUNDS), // Приводим к нижнему регистру для удобства пользователя
+        answerHash: bcrypt.hashSync(sanitizeInput(answer).toLowerCase(), SALT_ROUNDS),
     }));
 
     db.users[sanitizedEmail] = {
@@ -224,7 +224,7 @@ const simulateSqlInjection = (userInput) => {
         console.log("\n❗️ Уязвимость сработала! Часть запроса после '--' была закомментирована.");
         console.log("Такой запрос может вернуть данные всех пользователей, обойдя проверку пароля.");
     } else {
-        console.log("\n✅ В данном случае ввод безопасен, запрос будет искать пользователя с таким именем.");
+        console.log("\nВ данном случае ввод безопасен, запрос будет искать пользователя с таким именем.");
     }
     console.log(`--- Конец симуляции ---`);
 };

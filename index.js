@@ -64,11 +64,6 @@ const promptFinalizeReset = async () => {
     }
 };
 
-const promptSecurityTools = () => {
-    const key = generateSecureKey(16);
-    console.log(`\n Ваш безопасный ключ: ${key}`);
-};
-
 const promptLogin = async () => {
     const answers = await inquirer.prompt([
         { type: 'input', name: 'email', message: 'Email:' },
