@@ -1,0 +1,69 @@
+{
+  "users": {
+    "abba@example.com": {
+      "passwordHash": "$2b$10$QrNqAkX4MjBflNQ29FyUxOgql1ftHiHW2n0w7x3kwoa.0711B0nm.",
+      "secretQuestions": [
+        {
+          "question": "Рыбинск",
+          "answerHash": "$2b$10$eXKJX27CpcJ.CtlI/oWosuqSYGYACBMMv3nY9HdA40HanCrCsvAuO"
+        },
+        {
+          "question": "Пиф",
+          "answerHash": "$2b$10$zLiVagm6aOHvT4K1jE6FJeuP8GdsK6iqtd8hJyLDmRKhfK8/ZzI4W"
+        }
+      ]
+    },
+    "arra@example.com": {
+      "passwordHash": "$2b$10$ik6.X1JpL1lTAR.X/Uvw9eodr.GyL3UxBiT28QFLyIN7.Z3aRxFEu",
+      "secretQuestions": [
+        {
+          "question": "",
+          "answerHash": "$2b$10$jEK7wSufqD8J1.cbz7kPAO2wMf2X484zdotSVoZZu09LYkQnkkf5a"
+        },
+        {
+          "question": "",
+          "answerHash": "$2b$10$hi9wSI8UkZzeB/syT9y0rOgeik9skL2BPOymj2T2lXoM7c3tkywJS"
+        }
+      ]
+    },
+    "aaa": {
+      "passwordHash": "$2b$10$TugMeDHTlY5rO2Xa6yfu4.0yb1UpEEAcUEa1ijZJRAURoXCCQNNO2",
+      "secretQuestions": [
+        {
+          "question": "В каком городе вы родились?",
+          "answerHash": "$2b$10$crbW/i.nxVyfHN2Fp3TSse54ikwSLodrKXwPBHV57UbNHHr2jWgoe"
+        },
+        {
+          "question": "Кличка вашего первого домашнего животного?",
+          "answerHash": "$2b$10$rk7DK/TvmkJ/w1s1iTjPYemnN4rELDu0ll.aXSHeqT/lvp0QAkf6W"
+        }
+      ]
+    },
+    "bbb": {
+      "passwordHash": "$2b$10$2LOA9/iRVacBLrkKhInG2uk3W3v3MHc3EnSqSoG4eZIgP1IO5rZc.",
+      "secretQuestions": [
+        {
+          "question": "1",
+          "answerHash": "$2b$10$T/b2UFQudkR7BTO3SLD7SeM4nIKLpNcFfQHdUJwyOnIm9opp41pPy"
+        },
+        {
+          "question": "Кличка вашего первого домашнего животного?",
+          "answerHash": "$2b$10$kv.mxEF.E9JNJdvHvOYYh.ColslWsNWCzLoyIe6g6xywz27za3sEW"
+        }
+      ]
+    },
+    "email.ru": {
+      "passwordHash": "$2b$10$Cm/Ot1ImzBMKBXhueeqrSO2fFL2m1SSDs8B.5h.NbhQRI0EZpRDmm",
+      "secretQuestions": [
+        {
+          "question": "Имя питомца?",
+          "answerHash": "$2b$10$H8aTZNP4kbWsqk7gZix9ruJOxaODpHW0sDKmzBHaNtvsQHsWpPRNe"
+        },
+        {
+          "question": "Кличка вашего первого домашнего животного?",
+          "answerHash": "$2b$10$/OYfwuLZY7QHqgAyq7c7luuTlUPtARTgsLOKVs2E4RXQplrZKLngK"
+        }
+      ]
+    }
+  }
+}

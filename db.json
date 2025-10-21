@@ -1,0 +1,69 @@
+{
+  "users": {
+    "user1": {
+      "passwordHash": "$2b$10$qN4aEJrUOQNx7SVpdk5z6.5WSE/IjyEgLq7lJfHOmiF1.myPRKaFG",
+      "secretQuestions": [
+        {
+          "question": "1",
+          "answerHash": "$2b$10$xo4OrzyvXk.dkXDwjSGXI.naRW1NjyMTdLqz3UgyHqH042w6EaXwC"
+        },
+        {
+          "question": "2",
+          "answerHash": "$2b$10$f2arLF5GZ2i/qLWr04CrXuhjuG90/HmMXYrkkNrtsJZOQ.rLtNIwy"
+        }
+      ]
+    },
+    "user2": {
+      "passwordHash": "$2b$10$G1KbzJa.hZAi4zh3LakF6eSSw8rgioKk4v82TCjiMrhmOa8W0c.lK",
+      "secretQuestions": [
+        {
+          "question": "1",
+          "answerHash": "$2b$10$TuaoDZmxWUvKsioR7gu9weT4gl4tP15/7P1Y6cleitf7bedEOxTv2"
+        },
+        {
+          "question": "2",
+          "answerHash": "$2b$10$Yj8P1uETBUUwvVs2WmrLi.qg3PKPmnf0ewyA67jb5pn8toblMO9CS"
+        }
+      ]
+    },
+    "user3": {
+      "passwordHash": "$2b$10$9Hqj/w0rSsjyQ1jpDxUGceaeMz.puY8jddA.erBhkeV7kNCggm5bS",
+      "secretQuestions": [
+        {
+          "question": "1",
+          "answerHash": "$2b$10$ZRCGqQdw7GFg1moKKYhW/O2RsuCku3gAW7Sxv9WEjWq6Yw90215Pa"
+        },
+        {
+          "question": "2",
+          "answerHash": "$2b$10$kM95C5Bl3DHTwx9yI3gHoufb6q4ktbb5LII6Ocm4v/xRu3er9wPvm"
+        }
+      ]
+    },
+    "test@evil.com": {
+      "passwordHash": "$2b$10$pFGtCNYpqhT.0W1kVoVldOX.wQ7R169sRYR3HjDUMGhy3pdVCRl2u",
+      "secretQuestions": [
+        {
+          "question": "1",
+          "answerHash": "$2b$10$UCRACt75lxeRrpphubpGROJEnxn6943GLgQvXGeJWiVAwuuDe.Tn2"
+        },
+        {
+          "question": "1",
+          "answerHash": "$2b$10$ootzo73Rc0dd5xstWeAPe.Cv3nlVEofeQw4rwmYqa1WarF0aoRewm"
+        }
+      ]
+    },
+    "user4": {
+      "passwordHash": "$2b$10$.NQA12ttIy1xb2Tze1uI/eVGyVPfgLzhXMRNLXfznlS2flYxqERWa",
+      "secretQuestions": [
+        {
+          "question": "1",
+          "answerHash": "$2b$10$pepxqc8RQiRXLd2Po6RMy.z4sjiNt.D.afrzlpXO7wjCSOvMv7pwO"
+        },
+        {
+          "question": "2",
+          "answerHash": "$2b$10$tuaqNwwEX59dn2ilSmBrBevdNWgHApjPy5vsg6qYvIo2ltyMDwX4S"
+        }
+      ]
+    }
+  }
+}
